@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Database Test</string>
+    <string name="action_insert">Insert</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_profile">Profile</string>
+    <string name="title_activity_insert">InsertActivity</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_profile">Profile</string>
+</resources>
