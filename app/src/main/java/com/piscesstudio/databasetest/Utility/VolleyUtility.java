@@ -48,6 +48,10 @@ public class VolleyUtility {
         getRequestQueue().add(req);
     }
 
+    public <T> void addToRequestQueueWithTag(Request<T> req, Object tag) {
+        getRequestQueue().add(req).setTag(tag);
+    }
+
     public ImageLoader getImageLoader() {
         return mImageLoader;
     }
